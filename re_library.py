@@ -1,6 +1,13 @@
 
-import re
+'''
 
+I'm gonna work with the re library. It has plenty of methods to work with regular expressions.
+I won't use every single method of the library, but the most common ones, like search, split and sub
+'''
+
+
+
+import re
 
 
 '''
@@ -81,8 +88,8 @@ The split method will split string by the occurrences of pattern and returns a l
 split_list=re.split(r"\s","This is an example: I love Python!!")
 print(split_list)
 
-re.findall(r"i","This is an example: I love Python!!",flags=re.I)
-
+last_ex=re.findall(r"i","This is an example: I love Python!!",flags=re.I)
+print(last_ex)
 '''
 You might have noticed the argument flags was specified previously.
 The expression’s behaviour can be modified by specifying a flags value.
