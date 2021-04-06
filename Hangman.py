@@ -10,6 +10,10 @@ After the screen is clear, the "gallows" and the empty letter spaces should be d
 and player 2 should be allowed to guess letters until they either win, or lose. 
 As they choose correct letters, the letters should appear on the screen in place of the blank space. 
 As they choose wrong letters, the "man" himself should come end up being drawn, piece by piece.
+
+Create a large list of dictionary words and embedding them in the application. When the game starts, instead of player 1 choosing the word to play with, 
+the computer should pick a random word from the dictionary. This will allow you to play against the computer instead of only 2-player mode. 
+When the game starts, the user should be prompted to choose between 1-player or 2-player mode.
 """
 
 # We import some helpful libraries
