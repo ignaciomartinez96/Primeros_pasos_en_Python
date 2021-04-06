@@ -8,14 +8,14 @@ Then the screen should clear itself so that player 2 can't see the word.
 
 After the screen is clear, the "gallows" and the empty letter spaces should be drawn, 
 and player 2 should be allowed to guess letters until they either win, or lose. 
-As they choose correct letters, the letters should appear on the screen in place of the blank space (clear and redraw the whole screen). 
+As they choose correct letters, the letters should appear on the screen in place of the blank space. 
 As they choose wrong letters, the "man" himself should come end up being drawn, piece by piece.
 """
 
 # We import some helpful libraries
 import time
 import re       # this one will help to create some good lists
-import getpass  # this one will hide to word written by the first player
+import getpass  # this one will hide the word written by the first player
 import random
 
 
